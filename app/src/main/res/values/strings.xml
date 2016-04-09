@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Udacity Android Nanodegree Project_0</string>
+    <string name="action_settings">Settings</string>
+    <string name="spotifyButtonText">POPULAR MOVIES</string>
+    <string name="text_view_text_my_nanodegree_apps">My Nanodegree Apps!</string>
+    <string name="stockHawkButtonText">STOCK HAWK</string>
+    <string name="buildIitBiggerButtonText">BUILD IT BIGGER</string>
+    <string name="makeYourAppMaterialButtonText">MAKE YOUR APP MATERIAL</string>
+    <string name="goUbiquitousButtonText">GO UBIQUITOUS</string>
+    <string name="capstoneButtonText">CAPSTONE</string>
+</resources>

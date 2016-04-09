@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.yuriy.harkusha.udacity_android_nanodegree_project_0.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/standard_elements_margin">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_view_text_my_nanodegree_apps"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+        <Button
+            android:id="@+id/spotifyButton"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:onClick="spotifyButtonClick"
+            android:text="@string/spotifyButtonText"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/stockHawkButton"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:onClick="stockHawkButtonClick"
+            android:text="@string/stockHawkButtonText"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/buildIitBiggerButton"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:onClick="buildIitBiggerButtonClick"
+            android:text="@string/buildIitBiggerButtonText"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/makeYourAppMaterialButton"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:onClick="makeYourAppMaterialButtonClick"
+            android:text="@string/makeYourAppMaterialButtonText"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/goUbiquitousButton"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:onClick="goUbiquitousButtonClick"
+            android:text="@string/goUbiquitousButtonText"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/capstoneButton"
+            android:layout_width="300dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:onClick="capstoneButtonOnclick"
+            android:text="@string/capstoneButtonText"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+</ScrollView>
